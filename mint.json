@@ -1,13 +1,17 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Peach Finance",
+  "versions": [
+    "v1",
+    "v2"
+  ],
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#de7259",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
@@ -27,27 +31,28 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference",
-      "openapi": "/api-reference/openapi.json"
+      "name": "Essentials",
+      "url": "essentials"
     
+    },
+    {
+      "name": "API Reference",
+      "url": "v1/api-reference",
+      "openapi": "/api-reference/openapi.json",
+      "version": "v1"
+    },
+    {
+      "name": "API Reference",
+      "url": "v2/api-reference",
+      "openapi": "/api-reference/openapi.json",
+      "version": "v2"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Peach Status",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.peachstatus.com/"
     }
   ],
   "navigation": [
